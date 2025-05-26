@@ -1,0 +1,700 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.main {
+  width: 375px;
+  height: auto;
+}
+.main .container {
+  width: 375px;
+  height: 812px;
+}
+.main .container header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #000000;
+}
+.main .container .chatlogo {
+  width: 100%;
+  height: 762px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.main .container .chatlogo img {
+  width: 100px;
+}
+.main .container .chatlogo h1 {
+  font-family: "Cascadia Code";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.main .container2 {
+  width: 375px;
+  height: 812px;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+.main .container2 header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.main .container2 .chattext {
+  width: 100%;
+  height: 762px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.main .container2 .chattext .chatlogo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+.main .container2 .chattext .chatlogo h2 {
+  font-family: "Cascadia Code";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.main .container2 .chattext h1 {
+  font-family: Caros;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 78px;
+  letter-spacing: 0px;
+  margin-top: 17px;
+  margin-bottom: 43px;
+}
+.main .container2 .chattext h1 span {
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 78px;
+  letter-spacing: 0px;
+}
+.main .container2 .chattext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #b9c1be;
+  margin-bottom: 38px;
+}
+.main .container2 .chattext .chatbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.main .container2 .chattext .chatbtn button {
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  border: 1px solid #a8b0af;
+  border-radius: 50%;
+}
+.main .container2 .chattext .chatbtn button img {
+  width: 24px;
+  height: 24px;
+}
+.main .container2 .chattext .or h1 {
+  width: 51px;
+  background: #1a1a1a;
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  position: relative;
+  top: -25px;
+  left: 42%;
+  margin-bottom: 0px;
+}
+.main .container2 .chattext .or h2 {
+  margin-top: 30px;
+  width: 315px;
+  border: 1px solid #cdd1d0;
+}
+.main .container2 .chattext .signupbtn {
+  width: 327px;
+  height: 48px;
+  border-radius: 16px;
+  font-family: Caros;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000e08;
+  margin-bottom: 46px;
+}
+.main .container2 .chattext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+}
+.main .container2 .chattext p .login {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+.main .container3 {
+  width: 375px;
+  height: 812px;
+}
+.main .container3 header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #000000;
+}
+.main .container3 i {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  margin-top: 17px;
+}
+.main .container3 .signuptext {
+  width: 100%;
+  height: 762px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.main .container3 .signuptext h1 {
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 19px;
+  color: #000e08;
+  margin-top: 60px;
+  display: flex;
+}
+.main .container3 .signuptext h1 .toline {
+  position: relative;
+  top: 10px;
+  left: -50px;
+  width: 50px;
+  height: 10px;
+  background: linear-gradient(20.95deg, #208d7f 25.41%, #0fe16d 102.56%);
+  z-index: -10;
+}
+.main .container3 .signuptext h1 .toright {
+  margin-left: -45px;
+}
+.main .container3 .signuptext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #797c7b;
+  margin-bottom: 30px;
+}
+.main .container3 .signuptext .chatbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.main .container3 .signuptext .chatbtn button {
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  border: 1px solid #a8b0af;
+  border-radius: 50%;
+}
+.main .container3 .signuptext .chatbtn button img {
+  width: 24px;
+  height: 24px;
+}
+.main .container3 .signuptext .or h1 {
+  width: 51px;
+  background: #ffffff;
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -67px;
+  left: 42%;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.main .container3 .signuptext .or h2 {
+  margin-top: 30px;
+  width: 315px;
+  border: 1px solid #cdd1d0;
+}
+.main .container3 .signuptext .email {
+  margin-bottom: 150px;
+}
+.main .container3 .signuptext .email .emailtext {
+  width: 327px;
+  height: 58px;
+}
+.main .container3 .signuptext .email .emailtext label {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #24786d;
+}
+.main .container3 .signuptext .email .emailtext input {
+  width: 327px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cdd1d0;
+}
+.main .container3 .signuptext button {
+  width: 327px;
+  min-height: 48px;
+  border-radius: 16px;
+  background: #f3f6f6;
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #797c7b;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.main .container3 .signuptext .signupbtn {
+  background: #24786d;
+  color: #ffffff;
+}
+.main .container3 .signuptext p {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  color: #24786d;
+}
+.main .container4 {
+  width: 375px;
+  height: 812px;
+}
+.main .container4 header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #000000;
+}
+.main .container4 i {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  margin-top: 17px;
+}
+.main .container4 .signuptext {
+  width: 100%;
+  height: 762px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.main .container4 .signuptext h1 {
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 19px;
+  color: #000e08;
+  margin-top: 60px;
+  display: flex;
+}
+.main .container4 .signuptext h1 .toline {
+  position: relative;
+  top: 10px;
+  left: 2px;
+  width: 50px;
+  height: 10px;
+  background: linear-gradient(20.95deg, #208d7f 25.41%, #0fe16d 102.56%);
+  z-index: -10;
+}
+.main .container4 .signuptext h1 .toright {
+  margin-left: -45px;
+}
+.main .container4 .signuptext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #797c7b;
+  margin-bottom: 60px;
+}
+.main .container4 .signuptext .email {
+  margin-bottom: 25px;
+}
+.main .container4 .signuptext .email .emailtext {
+  width: 327px;
+  height: 58px;
+}
+.main .container4 .signuptext .email .emailtext label {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #24786d;
+}
+.main .container4 .signuptext .email .emailtext input {
+  width: 327px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cdd1d0;
+}
+.main .container4 .signuptext button {
+  margin-top: 121px;
+  width: 327px;
+  min-height: 48px;
+  border-radius: 16px;
+  background: #f3f6f6;
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #797c7b;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.main .container5 {
+  width: 375px;
+  height: 812px;
+}
+.main .container5 header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #000000;
+}
+.main .container5 i {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+  margin-top: 17px;
+}
+.main .container5 .signuptext {
+  width: 100%;
+  height: 762px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.main .container5 .signuptext h1 {
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 19px;
+  color: #000e08;
+  margin-top: 60px;
+  display: flex;
+}
+.main .container5 .signuptext h1 .toline {
+  position: relative;
+  top: 10px;
+  left: 2px;
+  width: 50px;
+  height: 10px;
+  background: linear-gradient(20.95deg, #208d7f 25.41%, #0fe16d 102.56%);
+  z-index: -10;
+}
+.main .container5 .signuptext h1 .toright {
+  margin-left: -45px;
+}
+.main .container5 .signuptext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #797c7b;
+  margin-bottom: 60px;
+}
+.main .container5 .signuptext .email {
+  margin-bottom: 25px;
+}
+.main .container5 .signuptext .email .emailtext {
+  width: 327px;
+  height: 58px;
+}
+.main .container5 .signuptext .email .emailtext .label {
+  color: #ff2d1b;
+}
+.main .container5 .signuptext .email .emailtext .input {
+  border-bottom: 1px solid #ff2d1b;
+}
+.main .container5 .signuptext .email .emailtext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  color: #ff2d1b;
+  margin-top: 5px;
+  text-align: right;
+}
+.main .container5 .signuptext .email .emailtext label {
+  font-family: Circular Std;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #24786d;
+}
+.main .container5 .signuptext .email .emailtext input {
+  width: 327px;
+  height: 48px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cdd1d0;
+}
+.main .container5 .signuptext button {
+  margin-top: 121px;
+  width: 327px;
+  min-height: 48px;
+  border-radius: 16px;
+  background: #24786d;
+  font-family: Caros;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.main .container6 {
+  width: 375px;
+  height: 812px;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+.main .container6 header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.main .container6 .chattext {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.main .container6 .chattext .chatlogo {
+  width: 327px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  display: flex;
+}
+.main .container6 .chattext .chatlogo h2 {
+  font-family: Caros;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.main .container6 .chattext .chatboximg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  gap: 13px;
+}
+.main .container6 .chattext .chatboximg div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .container6 .chatboxmassage {
+  width: 375px;
+  height: 555px;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 41px 0px 0px 0px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.main .container6 .chatboxmassage .chatboxmassageall {
+  width: 327px;
+  height: 52px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main .container6 .chatboxmassage .chatboxmassageall .chatboxmassagetextall {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.main .container6 .chatboxmassage .chatboxmassageall .chatboxmassagetextall .chatboxmassagetext h1 {
+  font-family: Caros;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #000e08;
+  margin-bottom: 6px;
+}
+.main .container6 .chatboxmassage .chatboxmassageall .chatboxmassagetextall .chatboxmassagetext p {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  color: #797c7b;
+}
+.main .container6 .chatboxmassage .chatboxmassageall .chatboxmassagetextall .time {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.main .container6 .chatboxmassage .chatboxmassageall .chatboxmassagetextall .time h1 {
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #797c7b;
+  margin-bottom: 7px;
+}
+.main .container6 .chatboxmassage .chatboxmassageall .chatboxmassagetextall .time p {
+  width: 22px;
+  height: 22px;
+  background: #f04a4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: Circular Std;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.main .container6 footer {
+  width: 375px;
+  height: 50px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #797c7b;
+  gap: 28px;
+}
+.main .container6 footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.main .container6 footer div .bx {
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
